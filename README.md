@@ -1,23 +1,31 @@
 # CartServer
 
-Wanted to learn genserver concepts really fast
+I wanted to learn genserver concepts really fast.
+
 Watched this video and asked ai to devise a plan to learn 
-Most of it is a guided slop of ai generated stuff about genserver. 
-But I cleared most of it to get the gist
+
 Elixir Full Course 39 - Genserver
 https://www.youtube.com/watch?v=a36lzSfzx8U
 
-Return tuple quick reference
+Most of it is a guided slop of ai generated stuff about genserver. 
+
+But I cleared most of it to get the gist
+
+###Return tuple quick reference
 
 Every callback must end with one of these tuples. OTP reads it and decides what to do next.
 
-init/1
+###init/1
+Tuple			Meaning
+{:ok, state} 		Start with this state.
 
-Tuple	Meaning
-{:ok, state}	Start with this state.
-{:ok, state, timeout}	Start, fire handle_info(:timeout) after N ms of silence.
-{:stop, reason}	Refuse to start. Supervisor reacts.
-:ignore	Don't start. Supervisor does NOT restart.
+{:ok, state, timeout} 	Start, fire handle_info(:timeout) after N ms of silence.
+
+{:stop, reason}		Refuse to start. Supervisor reacts
+
+:ignore			Don't start. Supervisor does NOT restart.
+
+
 
 handle_call/3
 Tuple	Meaning
