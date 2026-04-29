@@ -11,11 +11,11 @@ Most of it is a guided slop of ai generated stuff about genserver.
 
 But I cleared most of it to get the gist
 
-###Return tuple quick reference
+### Return tuple quick reference
 
 Every callback must end with one of these tuples. OTP reads it and decides what to do next.
 
-###init/1
+### init/1
 Tuple			Meaning
 {:ok, state} 		Start with this state.
 
