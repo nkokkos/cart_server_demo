@@ -8,7 +8,7 @@ Watched this video and asked AI to devise a plan to learn:
 https://www.youtube.com/watch?v=a36lzSfzx8U
 
 Most of it is a guided slop of AI generated stuff about GenServer.
-But I cleared most of it to get the gist.
+But I cleared most of it to get the gist using claude.. :-)
 
 ---
 
