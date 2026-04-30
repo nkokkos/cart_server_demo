@@ -352,7 +352,3 @@ iex> CartServer.add_item(%{name: "orange", price: 2.53, qty: 2})
 
 > `Process.cancel_timer` takes the timer reference returned by `send_after`. Storing it in state is the standard pattern for cancellable timers.# CartServer
 
-
-> Once you are comfortable with these steps, you can move on to learning about **Supervisors**, which are used to start, monitor, and restart GenServer processes automatically.
-
-
